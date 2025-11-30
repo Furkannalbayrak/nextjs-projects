@@ -6,7 +6,7 @@ import { Inter, Poppins } from 'next/font/google'
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
-  variable: "--font-poppins", // <--- BU İSİM ÇOK ÖNEMLİ, CSS'te bunu kullanacağız
+  variable: "--font-poppins",
 });
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
